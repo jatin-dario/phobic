@@ -4,7 +4,6 @@ var session = require('express-session');
 const { base64encode, base64decode } = require('nodejs-base64');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
-const modalCommon = require('./mcommon')
 var jwt = require('jsonwebtoken');
 const db = require('../utils/database');
 var axios = require('axios');
